@@ -13,6 +13,6 @@ void main() {
 
 	printf("please give your input:");
 	gets(place); //gets is dangerous, but we want to use it in this case
-	printf("your input: %d\n", place);
+	printf("your input starts at: %d\n", place);
 	system(systemcommand);
 }
